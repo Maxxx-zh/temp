@@ -4,9 +4,6 @@ set -e
 
 python_version=`python --version`
 
-# Install Jupyter for nbconvert
-pip install jupyter
-
 # Remove any FGs, FVs, Models, Deployments
 #jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 jupyter nbconvert --ExecutePreprocessor.kernel_name=$python_version --to notebook --execute scripts/cleanup-tutorials.ipynb
