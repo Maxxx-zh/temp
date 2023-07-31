@@ -3,7 +3,8 @@
 set -e
 
 # Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+#jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+jupyter nbconvert --ExecutePreprocessor.kernel_name=python3 --to notebook --execute scripts/cleanup-tutorials.ipynb
 
 # Quickstart
 jupyter nbconvert --to notebook --execute quickstart.ipynb
