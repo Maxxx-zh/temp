@@ -4,9 +4,10 @@ set -e
 
 python_version=`python --version`
 
+echo $python_version
+
 # Remove any FGs, FVs, Models, Deployments
-#jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
-jupyter nbconvert --ExecutePreprocessor.kernel_name=$python_version --to notebook --execute scripts/cleanup-tutorials.ipynb
+jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
 # Quickstart
 jupyter nbconvert --to notebook --execute quickstart.ipynb
