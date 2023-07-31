@@ -2,12 +2,6 @@
 
 set -e
 
-python_version=`python --version`
-
-echo $python_version
-
-jupyter kernelspec list
-
 # Remove any FGs, FVs, Models, Deployments
 jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
