@@ -5,8 +5,8 @@ set -e
 # Remove any FGs, FVs, Models, Deployments
 jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
-# Quickstart
-jupyter nbconvert --to notebook --execute quickstart.ipynb
+## Quickstart
+#jupyter nbconvert --to notebook --execute quickstart.ipynb
 
 # fraud batch
 jupyter nbconvert --to notebook --execute fraud_batch/1_feature_groups.ipynb 
