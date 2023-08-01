@@ -10,7 +10,7 @@ jupyter
 ipykernel
 nbconvert
 scikit-learn
-typing_extensions
+gradio
 plotly
 Pillow
 seaborn
