@@ -24,32 +24,17 @@ jupyter nbconvert --to notebook --execute churn/3_churn_batch_inference.ipynb
 jupyter nbconvert --to notebook --execute integrations/great_expectations/Great_Expectations_Hopsworks_Concepts.ipynb
 jupyter nbconvert --to notebook --execute integrations/great_expectations/fraud_batch_data_validation.ipynb
 
-# W&B
-jupyter nbconvert --to notebook --execute integrations/wandb/1_feature_groups.ipynb 
-jupyter nbconvert --to notebook --execute integrations/wandb/2_feature_view_creation.ipynb
-jupyter nbconvert --to notebook --execute integrations/wandb/3_model_training.ipynb
+# Advanced Tutorials
+cd advanced_tutorials
 
+# Air Quality 
+jupyter nbconvert --to notebook --execute air_quality/1_air_quality_feature_backfill.ipynb 
+jupyter nbconvert --to notebook --execute air_quality/2_air_quality_feature_pipeline.ipynb 
+jupyter nbconvert --to notebook --execute air_quality/3_air_quality_training_pipeline.ipynb 
+jupyter nbconvert --to notebook --execute air_quality/4_air_quality_batch_inference.ipynb 
 
-# # Electricity Prices
-# cd advanced_tutorials/electricity
-# jupyter nbconvert --to notebook --execute 1_backfill_feature_groups.ipynb
-# jupyter nbconvert --to notebook --execute 2_feature_pipeline.ipynb
-# jupyter nbconvert --to notebook --execute 3_feature_views_and_training_dataset.ipynb
-# jupyter nbconvert --to notebook --execute 4_model_training.ipynb
-# jupyter nbconvert --to notebook --execute 5_batch_predictions.ipynb
-
-# cd ../..
-
-# # NYC Taxi Trips
-# cd advanced_tutorials/nyc_taxi_fares/
-
-# jupyter nbconvert --to notebook --execute 1_backfill_feature_groups.ipynb
-# jupyter nbconvert --to notebook --execute 2_features_pipeline.ipynb
-# jupyter nbconvert --to notebook --execute 3_feature_view_and_dataset_creation.ipynb
-# jupyter nbconvert --to notebook --execute 4_model_training_and_registration.ipynb
-
-
-# cd ../..
-
-
-
+# Citibike
+jupyter nbconvert --to notebook --execute citibike/1_citibike_feature_backfill.ipynb 
+jupyter nbconvert --to notebook --execute citibike/2_citibike_feature_pipeline.ipynb 
+jupyter nbconvert --to notebook --execute citibike/3_citibike_training_pipeline.ipynb 
+jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
