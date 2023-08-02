@@ -29,7 +29,6 @@ cd advanced_tutorials
 
 # Air Quality 
 jupyter nbconvert --to notebook --execute air_quality/1_air_quality_feature_backfill.ipynb 
-jupyter nbconvert --to notebook --execute air_quality/2_air_quality_feature_pipeline.ipynb 
 jupyter nbconvert --to notebook --execute air_quality/3_air_quality_training_pipeline.ipynb 
 jupyter nbconvert --to notebook --execute air_quality/4_air_quality_batch_inference.ipynb 
 
