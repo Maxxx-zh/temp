@@ -7,6 +7,7 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
 ## Quickstart
 #jupyter nbconvert --to notebook --execute quickstart.ipynb
+ls
 
 # fraud batch
 jupyter nbconvert --to notebook --execute ../fraud_batch/1_feature_groups.ipynb 
