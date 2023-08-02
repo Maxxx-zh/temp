@@ -17,7 +17,7 @@ jupyter nbconvert --to notebook --execute fraud_batch/3_fraud_batch_inference.ip
 # fraud online
 jupyter nbconvert --to notebook --execute fraud_online/1_fraud_batch_feature_pipeline.ipynb 
 jupyter nbconvert --to notebook --execute fraud_online/2_fraud_batch_training_pipeline.ipynb
-jupyter nbconvert --to notebook --execute fraud_online/3_fraud_batch_inference.ipynb
+jupyter nbconvert --to notebook --execute fraud_online/3_fraud_online_inference_pipeline.ipynb
 
 
 # # churn
