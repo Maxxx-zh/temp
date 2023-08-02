@@ -9,9 +9,9 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 #jupyter nbconvert --to notebook --execute quickstart.ipynb
 
 # fraud batch
-jupyter nbconvert --to notebook --execute fraud_batch/1_feature_groups.ipynb 
-jupyter nbconvert --to notebook --execute fraud_batch/2_feature_view_creation.ipynb
-jupyter nbconvert --to notebook --execute fraud_batch/3_model_training.ipynb
+jupyter nbconvert --to notebook --execute ../fraud_batch/1_feature_groups.ipynb 
+jupyter nbconvert --to notebook --execute ../fraud_batch/2_feature_view_creation.ipynb
+jupyter nbconvert --to notebook --execute ../fraud_batch/3_model_training.ipynb
 
 # # fraud online
 # jupyter nbconvert --to notebook --execute fraud_online/1_feature_groups.ipynb 
