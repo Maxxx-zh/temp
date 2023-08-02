@@ -34,7 +34,7 @@ cd advanced_tutorials
 # jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
 
 # Credit Scores
-jupyter nbconvert --to notebook --execute credit_scores/1_citibike_feature_backfill.ipynb 
+jupyter nbconvert --to notebook --execute credit_scores/1_credit_scores_feature_backfill.ipynb 
 jupyter nbconvert --to notebook --execute credit_scores/2_credit_scores_feature_pipeline.ipynb 
 jupyter nbconvert --to notebook --execute credit_scores/3_credit_scores_training_pipeline.ipynb 
 jupyter nbconvert --to notebook --execute credit_scores/4_credit_scores_batch_inference.ipynb 
