@@ -46,7 +46,7 @@ jupyter nbconvert --to notebook --execute credit_scores/3_credit_scores_training
 jupyter nbconvert --to notebook --execute credit_scores/4_credit_scores_batch_inference.ipynb 
 
 # Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
 # Electricity
 jupyter nbconvert --to notebook --execute electricity/1_electricity_feature_backfill.ipynb 
@@ -59,3 +59,6 @@ jupyter nbconvert --to notebook --execute nyc_taxi_fares/1_nyc_taxi_fares_featur
 jupyter nbconvert --to notebook --execute nyc_taxi_fares/2_nyc_taxi_fares_feature_pipeline.ipynb
 jupyter nbconvert --to notebook --execute nyc_taxi_fares/3_nyc_taxi_fares_training_pipeline.ipynb
 jupyter nbconvert --to notebook --execute nyc_taxi_fares/4_nyc_taxi_fares_batch_inference.ipynb
+
+# Remove any FGs, FVs, Models, Deployments
+jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
