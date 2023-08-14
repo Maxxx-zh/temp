@@ -20,4 +20,5 @@ textblob
 vaderSentiment
 tweepy
 tensorflow
+torch
 geopy
