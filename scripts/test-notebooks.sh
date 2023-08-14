@@ -39,8 +39,8 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 # # Remove any FGs, FVs, Models, Deployments
 # jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
-# Advanced Tutorials
-cd advanced_tutorials
+# # Advanced Tutorials
+# cd advanced_tutorials
 
 # # Citibike
 # jupyter nbconvert --to notebook --execute citibike/1_citibike_feature_backfill.ipynb 
@@ -72,11 +72,11 @@ cd advanced_tutorials
 # jupyter nbconvert --to notebook --execute nyc_taxi_fares/3_nyc_taxi_fares_training_pipeline.ipynb
 # jupyter nbconvert --to notebook --execute nyc_taxi_fares/4_nyc_taxi_fares_batch_inference.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
 # Move to transformation_functions folder
-cd transformation_functions
+cd advanced_tutorials/transformation_functions
 
 # Keras TF
 jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
