@@ -76,7 +76,8 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 # jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
 # Move to transformation_functions folder
-cd advanced_tutorials/transformation_functions
+#cd advanced_tutorials/transformation_functions
+ls 
 
 # Keras TF
 jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
