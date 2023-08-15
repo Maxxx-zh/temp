@@ -1,4 +1,4 @@
-name: test-tutorials-python
+name: test-tutorials-python-38
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
       - 'master'
 
 jobs:
-  test_tutorials38:
+  test_schedule:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -26,50 +26,6 @@ jobs:
       - name: execute python workflows from bash script
         env: 
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_38 }}
-          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        run: ./scripts/test-notebooks.sh
-
-  test_tutorials39:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout repo content
-        uses: actions/checkout@v2
-
-      - name: setup python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-          
-      - name: install python packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          
-      - name: execute python workflows from bash script
-        env: 
-          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_39 }}
-          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        run: ./scripts/test-notebooks.sh
-
-  test_tutorials310:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout repo content
-        uses: actions/checkout@v2
-
-      - name: setup python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'
-          
-      - name: install python packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          
-      - name: execute python workflows from bash script
-        env: 
-          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_310 }}
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: ./scripts/test-notebooks.sh
 
