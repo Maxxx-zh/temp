@@ -42,11 +42,11 @@ jupyter nbconvert --to notebook --execute fraud_online/3_fraud_online_inference_
 # Advanced Tutorials
 cd advanced_tutorials
 
-# Citibike
-jupyter nbconvert --to notebook --execute citibike/1_citibike_feature_backfill.ipynb 
-jupyter nbconvert --to notebook --execute citibike/2_citibike_feature_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute citibike/3_citibike_training_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
+# # Citibike
+# jupyter nbconvert --to notebook --execute citibike/1_citibike_feature_backfill.ipynb 
+# jupyter nbconvert --to notebook --execute citibike/2_citibike_feature_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute citibike/3_citibike_training_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
 
 # Remove any FGs, FVs, Models, Deployments
 jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
@@ -78,17 +78,17 @@ jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 # Go to transformation_functions folder
 cd transformation_functions 
 
-# Keras TF
-jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
+# # Keras TF
+# jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
-# PyTorch TF
-jupyter nbconvert --to notebook --execute pytorch/pytorch_transformation_functions.ipynb
+# # PyTorch TF
+# jupyter nbconvert --to notebook --execute pytorch/pytorch_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
 # Sklearn TF
 jupyter nbconvert --to notebook --execute sklearn/sklearn_transformation_functions.ipynb
