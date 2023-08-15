@@ -90,15 +90,15 @@ cd transformation_functions
 # # Remove any FGs, FVs, Models, Deployments
 # jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
-# Sklearn TF
-jupyter nbconvert --to notebook --execute sklearn/sklearn_transformation_functions.ipynb
+# # Sklearn TF
+# jupyter nbconvert --to notebook --execute sklearn/sklearn_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
-# Custom TF
-python custom/transformations.py
-jupyter nbconvert --to notebook --execute custom/custom_transformation_functions.ipynb
+# # Custom TF
+# python custom/transformations.py
+# jupyter nbconvert --to notebook --execute custom/custom_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
