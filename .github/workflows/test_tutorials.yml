@@ -22,22 +22,14 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-
+          
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
+          
       - name: execute python workflows from bash script
-        env:
-          HOPSWORKS_API_KEY: ${{ steps.get_secret.outputs.secret_value }}
+        env: 
+          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_38 }}
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: ./scripts/test-notebooks.sh
-
-  get_secret:
-    runs-on: ubuntu-latest
-    outputs:
-      secret_value: ${{ steps.set_secret.outputs.secret_value }}
-    steps:
-      - name: Get Secret
-        run: echo "::set-output name=secret_value::${{ secrets['HOPSWORKS_API_KEY_' + matrix.python-version.replace('.', '')] }}"
