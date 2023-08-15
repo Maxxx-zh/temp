@@ -21,8 +21,8 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
 # fraud online
 jupyter nbconvert --to notebook --execute fraud_online/1_fraud_online_feature_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute fraud_online/2_fraud_online_training_pipeline.ipynb
-jupyter nbconvert --to notebook --execute fraud_online/3_fraud_online_inference_pipeline.ipynb
+# jupyter nbconvert --to notebook --execute fraud_online/2_fraud_online_training_pipeline.ipynb
+# jupyter nbconvert --to notebook --execute fraud_online/3_fraud_online_inference_pipeline.ipynb
 
 # # Remove any FGs, FVs, Models, Deployments
 # jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
@@ -75,8 +75,8 @@ jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 # # Remove any FGs, FVs, Models, Deployments
 # jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
-# Go to transformation_functions folder
-cd transformation_functions 
+# # Go to transformation_functions folder
+# cd transformation_functions 
 
 # # Keras TF
 # jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
