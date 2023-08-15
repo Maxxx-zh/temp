@@ -32,6 +32,9 @@ jobs:
   test_tutorials39:
     runs-on: ubuntu-latest
     steps:
+      - name: Wait 20 sec
+        run: sleep 20
+
       - name: Checkout repo content
         uses: actions/checkout@v2
 
