@@ -51,54 +51,54 @@ jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ip
 # Remove any FGs, FVs, Models, Deployments
 jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
-# Credit Scores
-jupyter nbconvert --to notebook --execute credit_scores/1_credit_scores_feature_backfill.ipynb 
-jupyter nbconvert --to notebook --execute credit_scores/2_credit_scores_feature_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute credit_scores/3_credit_scores_training_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute credit_scores/4_credit_scores_batch_inference.ipynb 
+# # Credit Scores
+# jupyter nbconvert --to notebook --execute credit_scores/1_credit_scores_feature_backfill.ipynb 
+# jupyter nbconvert --to notebook --execute credit_scores/2_credit_scores_feature_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute credit_scores/3_credit_scores_training_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute credit_scores/4_credit_scores_batch_inference.ipynb 
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
-# Electricity
-jupyter nbconvert --to notebook --execute electricity/1_electricity_feature_backfill.ipynb 
-jupyter nbconvert --to notebook --execute electricity/2_electricity_feature_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute electricity/3_electricity_training_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute electricity/4_electricity_batch_inference.ipynb 
+# # Electricity
+# jupyter nbconvert --to notebook --execute electricity/1_electricity_feature_backfill.ipynb 
+# jupyter nbconvert --to notebook --execute electricity/2_electricity_feature_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute electricity/3_electricity_training_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute electricity/4_electricity_batch_inference.ipynb 
 
-# Nyc Taxi Fares
-jupyter nbconvert --to notebook --execute nyc_taxi_fares/1_nyc_taxi_fares_feature_backfill.ipynb
-jupyter nbconvert --to notebook --execute nyc_taxi_fares/2_nyc_taxi_fares_feature_pipeline.ipynb
-jupyter nbconvert --to notebook --execute nyc_taxi_fares/3_nyc_taxi_fares_training_pipeline.ipynb
-jupyter nbconvert --to notebook --execute nyc_taxi_fares/4_nyc_taxi_fares_batch_inference.ipynb
+# # Nyc Taxi Fares
+# jupyter nbconvert --to notebook --execute nyc_taxi_fares/1_nyc_taxi_fares_feature_backfill.ipynb
+# jupyter nbconvert --to notebook --execute nyc_taxi_fares/2_nyc_taxi_fares_feature_pipeline.ipynb
+# jupyter nbconvert --to notebook --execute nyc_taxi_fares/3_nyc_taxi_fares_training_pipeline.ipynb
+# jupyter nbconvert --to notebook --execute nyc_taxi_fares/4_nyc_taxi_fares_batch_inference.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
-# Go to transformation_functions folder
-cd transformation_functions 
+# # Go to transformation_functions folder
+# cd transformation_functions 
 
-# Keras TF
-jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
+# # Keras TF
+# jupyter nbconvert --to notebook --execute keras/keras_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
-# PyTorch TF
-jupyter nbconvert --to notebook --execute pytorch/pytorch_transformation_functions.ipynb
+# # PyTorch TF
+# jupyter nbconvert --to notebook --execute pytorch/pytorch_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
-# Sklearn TF
-jupyter nbconvert --to notebook --execute sklearn/sklearn_transformation_functions.ipynb
+# # Sklearn TF
+# jupyter nbconvert --to notebook --execute sklearn/sklearn_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
 
-# Custom TF
-python custom/transformations.py
-jupyter nbconvert --to notebook --execute custom/custom_transformation_functions.ipynb
+# # Custom TF
+# python custom/transformations.py
+# jupyter nbconvert --to notebook --execute custom/custom_transformation_functions.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../../scripts/cleanup-tutorials.ipynb
