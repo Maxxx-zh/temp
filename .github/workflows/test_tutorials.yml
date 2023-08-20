@@ -30,7 +30,7 @@ jobs:
         run: ./scripts/test-notebooks.sh
 
   test_tutorials39:
-    needs: test_tutorials38
+    needs: test_tutorials39
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo content
@@ -53,7 +53,7 @@ jobs:
         run: ./scripts/test-notebooks.sh
 
   test_tutorials310:
-    needs: test_tutorials39
+    needs: test_tutorials310
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
