@@ -30,7 +30,7 @@ jobs:
         run: ./scripts/test-notebooks.sh
 
   test_tutorials39:
-    needs: test_tutorials39
+    needs: test_tutorials38
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo content
@@ -48,12 +48,12 @@ jobs:
           
       - name: Execute Python workflows from bash script
         env: 
-          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_38 }}
+          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_39 }}
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: ./scripts/test-notebooks.sh
 
   test_tutorials310:
-    needs: test_tutorials310
+    needs: test_tutorials39
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -71,6 +71,6 @@ jobs:
           
       - name: execute python workflows from bash script
         env: 
-          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_38 }}
+          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY_310 }}
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: ./scripts/test-notebooks.sh
