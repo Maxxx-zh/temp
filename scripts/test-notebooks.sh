@@ -13,18 +13,18 @@ jupyter nbconvert --to notebook --execute loan_approval/3-loan-approval-batch-in
 # Remove any FGs, FVs, Models, Deployments
 jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
-# # fraud batch
-# jupyter nbconvert --to notebook --execute fraud_batch/1_fraud_batch_feature_pipeline.ipynb 
-# jupyter nbconvert --to notebook --execute fraud_batch/2_fraud_batch_training_pipeline.ipynb
-# jupyter nbconvert --to notebook --execute fraud_batch/3_fraud_batch_inference.ipynb
+# fraud batch
+jupyter nbconvert --to notebook --execute fraud_batch/1_fraud_batch_feature_pipeline.ipynb 
+jupyter nbconvert --to notebook --execute fraud_batch/2_fraud_batch_training_pipeline.ipynb
+jupyter nbconvert --to notebook --execute fraud_batch/3_fraud_batch_inference.ipynb
 
 # # # fraud online
 # # jupyter nbconvert --to notebook --execute fraud_online/1_fraud_online_feature_pipeline.ipynb 
 # # jupyter nbconvert --to notebook --execute fraud_online/2_fraud_online_training_pipeline.ipynb
 # # jupyter nbconvert --to notebook --execute fraud_online/3_fraud_online_inference_pipeline.ipynb
 
-# # Remove any FGs, FVs, Models, Deployments
-# jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+# Remove any FGs, FVs, Models, Deployments
+jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
 # # churn
 # jupyter nbconvert --to notebook --execute churn/1_churn_feature_pipeline.ipynb 
