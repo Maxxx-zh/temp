@@ -58,7 +58,7 @@ jupyter nbconvert --to notebook --execute citibike/3_citibike_training_pipeline.
 jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
 
 # Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
 # # Remove any FGs, FVs, Models, Deployments
 # jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
