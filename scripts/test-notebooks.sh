@@ -2,13 +2,13 @@
 
 set -e
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
-# Loan Approval
-jupyter nbconvert --to notebook --execute loan_approval/1-loan-approval-feature-pipeline.ipynb
-jupyter nbconvert --to notebook --execute loan_approval/2-loan-approval-training-pipeline.ipynb
-jupyter nbconvert --to notebook --execute loan_approval/3-loan-approval-batch-inference.ipynb
+# # Loan Approval
+# jupyter nbconvert --to notebook --execute loan_approval/1-loan-approval-feature-pipeline.ipynb
+# jupyter nbconvert --to notebook --execute loan_approval/2-loan-approval-training-pipeline.ipynb
+# jupyter nbconvert --to notebook --execute loan_approval/3-loan-approval-batch-inference.ipynb
 
 # Remove any FGs, FVs, Models, Deployments
 jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
