@@ -155,3 +155,6 @@ advanced_tutorials/citibike/data/stations_info.csv
 advanced_tutorials/citibike/features/__pycache__/citibike.cpython-39.pyc
 fraud_online/features/__pycache__/transactions_fraud.cpython-39.pyc
 fraud_online/features/__pycache__/transactions_fraud.cpython-39.pyc
+loan_approval/features/__pycache__/applicants.cpython-39.pyc
+loan_approval/features/__pycache__/applicants.cpython-39.pyc
+loan_approval/features/__pycache__/applicants.cpython-39.pyc
