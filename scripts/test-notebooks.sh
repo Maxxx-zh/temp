@@ -31,21 +31,14 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 # jupyter nbconvert --to notebook --execute churn/2_churn_training_pipeline.ipynb
 # jupyter nbconvert --to notebook --execute churn/3_churn_batch_inference.ipynb
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 
-# Great Expectations
-jupyter nbconvert --to notebook --execute integrations/great_expectations/Great_Expectations_Hopsworks_Concepts.ipynb
-
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
-
-#---------------
-# jupyter nbconvert --to notebook --execute integrations/great_expectations/fraud_batch_data_validation.ipynb
+# # Great Expectations
+# jupyter nbconvert --to notebook --execute integrations/great_expectations/Great_Expectations_Hopsworks_Concepts.ipynb
 
 # # Remove any FGs, FVs, Models, Deployments
 # jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
-#---------------
 
 
 # Advanced Tutorials
