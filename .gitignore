@@ -159,3 +159,5 @@ loan_approval/features/__pycache__/applicants.cpython-39.pyc
 loan_approval/features/__pycache__/applicants.cpython-39.pyc
 loan_approval/features/__pycache__/applicants.cpython-39.pyc
 advanced_tutorials/.DS_Store
+advanced_tutorials/credit_scores/credit_scores_model/confusion_matrix.png
+advanced_tutorials/credit_scores/credit_scores_model/feature_importance.png
