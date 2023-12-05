@@ -43,14 +43,14 @@ jupyter nbconvert --to notebook --execute scripts/cleanup-tutorials.ipynb
 # Advanced Tutorials
 cd advanced_tutorials
 
-# Citibike
-jupyter nbconvert --to notebook --execute citibike/1_citibike_feature_backfill.ipynb 
-jupyter nbconvert --to notebook --execute citibike/2_citibike_feature_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute citibike/3_citibike_training_pipeline.ipynb 
-jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
+# # Citibike
+# jupyter nbconvert --to notebook --execute citibike/1_citibike_feature_backfill.ipynb 
+# jupyter nbconvert --to notebook --execute citibike/2_citibike_feature_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute citibike/3_citibike_training_pipeline.ipynb 
+# jupyter nbconvert --to notebook --execute citibike/4_citibike_batch_inference.ipynb 
 
-# Remove any FGs, FVs, Models, Deployments
-jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
+# # Remove any FGs, FVs, Models, Deployments
+# jupyter nbconvert --to notebook --execute ../scripts/cleanup-tutorials.ipynb
 
 
 # Credit Scores
